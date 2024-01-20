@@ -1,0 +1,16 @@
+.rf-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+
+  &__row {
+    display: flex;
+    gap: 1px;
+  }
+
+  &__cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+  }
+}

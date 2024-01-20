@@ -9,6 +9,7 @@ import { AppRoute } from '@utils/route';
 
 import '@styles/reset.scss';
 import '@styles/main.scss';
+import '@styles/element.scss';
 
 export const App: React.FC = () => (
   <Routes>
